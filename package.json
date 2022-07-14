@@ -1,0 +1,29 @@
+{
+  "name": "javascript-i-mini",
+  "version": "1.0.0",
+  "description": "### Description",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint tests/*.js && eslint src/*.js && jest --verbose",
+    "test:watch": "npm test -- --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LambdaSchool/JavaScript-I-Mini.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LambdaSchool/JavaScript-I-Mini/issues"
+  },
+  "homepage": "https://github.com/LambdaSchool/JavaScript-I-Mini#readme",
+  "dependencies": {
+    "@babel/preset-env": "^7.3.4",
+    "eslint": "^4.18.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "jest": "^24.1.0",
+    "regenerator-runtime": "^0.11.1"
+  }
+}
